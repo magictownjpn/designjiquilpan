@@ -1,0 +1,43 @@
+#monumentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#monumentos img {
+    position: relative;
+    width: 90%;
+    margin: 5%;
+    margin-top: 70px;
+    
+}
+
+#monumentos h2 {
+    color: #fff;
+    position: absolute;
+    margin: -20% 10%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#monumentos p {
+    text-align: justify;
+    width: 90%;
+    margin: -3% 5% 5% 5%;
+}
+
+@media (min-width:1024px) {
+   #monumentos p {
+        width: 80%;
+        margin: -3% 10% 5% 10%;
+    }
+    
+    #monumentos img {
+        width: 80%;
+        margin: 5% 10%;
+    }
+    
+    #monumentos h2 {
+        margin: -12% 15%;
+    }
+    
+}
