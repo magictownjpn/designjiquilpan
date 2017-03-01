@@ -1,0 +1,11 @@
+#noticias {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+@media (min-width:768px){
+    #noticias {
+        width: 600px;
+    }
+}
