@@ -1,7 +1,9 @@
 #noticias {
     width: 100%;
+    min-height: 74vh;
     text-align: center;
     margin: auto;
+    margin-top: 53px;
 }
 
 @media (min-width:768px){
