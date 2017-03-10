@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import url(fontello.css);
+@import url(banner.css);
+@import url(menu.css);
+@import url(tarjetas3d.css);
+@import url(monumentos.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 53px;
+    background: rgb(0,200,40);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header h1 {
+    float:left;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 45px;
+}
+
+header img {
+    margin: 4px 0px 0px 0px;
+    position: absolute;
+    width: 40px;
+    
+}
+#banner h2 {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+header .contenedor {
+    display: table;
+}
+
+
+
+
+
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    background: rgb(0,200,40);
+    margins: 0px;
+    width: 100%;
+    min-height: 120px;
+}
+
+.copy {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.sociales {
+    width: 100%;
+    text-align: center;
+}
+
+.sociales a:hover {
+    color: rgba(53,53,53,0.9);
+}
+.sociales a {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+@media (min-width:768px) {
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content: space-between;
+        padding: 20px;
+    }
+} 
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+    
+    .menu{
+        background: rgb(0,200,40);
+    }
+}
