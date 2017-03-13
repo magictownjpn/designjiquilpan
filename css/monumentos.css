@@ -41,6 +41,12 @@
 @media (min-width:668px){
     #monumentos h2 {
         font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    #monumentos img {
+        width: 80%;
+        margin: 5% 10%;
     }
 }
 
@@ -51,12 +57,11 @@
     }
     
     #monumentos img {
-        width: 80%;
-        margin: 5% 10%;
+    
     }
     
     #monumentos h2 {
-        margin: -12% 10%;
+        margin: -7% 10%;
     }
     
 }

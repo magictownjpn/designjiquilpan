@@ -55,9 +55,38 @@ header .contenedor {
 }
 
 
+#destinos {
+    text-align: center;
+}
 
+#destinos .contenedor {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.lugares {
+    margin: 5px;
+    margin-top: 40px;
+}
 
+.lugares img {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 7px solid rgb(180,10,110);
+}
+
+.lugares img:hover {
+    filter: saturate(250%);
+}
+
+.lugares a {
+    text-decoration: none;
+    color: black;
+}
 
 footer .contenedor {
     display: flex;
