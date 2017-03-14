@@ -3,7 +3,8 @@
 }
 
 #destinos .contenedor {
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -11,7 +12,7 @@
 
 .lugares {
     margin: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .lugares img {
@@ -30,4 +31,23 @@
 .lugares a {
     text-decoration: none;
     color: black;
+}
+
+.lugares h4 {
+    position: relative;
+    margin-top: -50px;
+    border-radius: 00px 20px 20px 0px;
+    background: #fff;
+}
+
+@media (min-width:600px) {
+    .lugares img {
+        max-width: 250px;
+    }
+}
+
+@media (min-width:1024px) {
+    .lugares img {
+        max-width: 300px;
+    }
 }
