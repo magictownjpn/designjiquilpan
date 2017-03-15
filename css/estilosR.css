@@ -5,6 +5,7 @@
 @import url(menu.css);
 @import url(tarjetas3d.css);
 @import url(monumentos.css);
+@import url(circulos.css);
 
 * {
     margin: 0;
@@ -55,7 +56,10 @@ header .contenedor {
 }
 
 
-
+/*Color de los circulos*/
+.lugares img {
+     border: 7px solid rgb(0,200,40);
+}
 
 
 

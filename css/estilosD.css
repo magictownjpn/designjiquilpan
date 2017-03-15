@@ -55,7 +55,9 @@ header .contenedor {
     display: table;
 }
 
-
+#monumentos h2 {
+    background: rgb(180,10,110);
+}
 
 footer .contenedor {
     display: flex;

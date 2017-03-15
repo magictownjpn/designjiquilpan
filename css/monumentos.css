@@ -21,13 +21,18 @@
     text-shadow: black 0.1em 0.1em 0.2em;
     border-radius: 00px 20px 20px 0px;
     width: auto;
-    background: rgb(180,10,110);
 }
 
 #monumentos p {
     text-align: justify;
     width: 90%;
     margin: -3% 5% 5% 5%;
+}
+
+#monumentos li {
+    text-align: justify;
+    width: 70%;
+    margin: -3% 0% 3% 20%;
 }
 
 
@@ -38,7 +43,7 @@
     }
 }
 
-@media (min-width:668px){
+@media (min-width:688px){
     #monumentos h2 {
         font-size: 30px;
         margin-left: 10%;
